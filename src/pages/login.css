@@ -1,0 +1,98 @@
+/* Global Styles */
+.body_css {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(135deg, #6a11cb, #2575fc); */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Login Container */
+  .login-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Heading */
+  .login-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: center;
+  }
+  
+  /* Form Fields */
+  .login-container input[type='email'],
+  .login-container input[type='password'] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Input Focus Effect */
+  .login-container input[type='email']:focus,
+  .login-container input[type='password']:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 0 8px rgba(106, 17, 203, 0.2);
+    outline: none;
+  }
+  
+  /* Login Button */
+  .login-container button {
+    background-color: #6a11cb;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .login-container button:hover {
+    background-color: #4c0eb0;
+  }
+  
+  /* Forgot Password */
+  .login-container a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #6a11cb;
+    text-decoration: none;
+  }
+  
+  .login-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .login-container {
+      padding: 20px;
+    }
+  
+    .login-container h2 {
+      font-size: 20px;
+    }
+  
+    .login-container button {
+      font-size: 14px;
+    }
+  }
+  

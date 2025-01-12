@@ -1,0 +1,36 @@
+{
+  "appointments": [
+    {
+      "id": "0880",
+      "date": "2025-01-08T22:00:00.000Z",
+      "userId": "1",
+      "className": "event-green",
+      "backgroundColor": "green",
+      "borderColor": "green"
+    },
+    {
+      "id": "c253",
+      "date": "2025-01-15T22:00:00.000Z",
+      "userId": "2",
+      "className": "event-blue",
+      "backgroundColor": "blue",
+      "borderColor": "blue"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@example.com",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "User1",
+      "email": "user1@example.com",
+      "password": "user1",
+      "role": "user"
+    }
+  ]
+}
